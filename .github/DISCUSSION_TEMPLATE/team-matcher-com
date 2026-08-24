@@ -1,0 +1,26 @@
+title: "[team-matcher.com] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome! Use this form for questions, feature requests, or feedback regarding **team-matcher.com**. Please do not share private personal data.
+  - type: dropdown
+    id: topic-type
+    attributes:
+      label: What would you like to do?
+      options:
+        - "Ask a general question"
+        - "Get help with a problem / bug"
+        - "Suggest a new feature or improvement"
+        - "Other / General feedback"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Your message
+      description: Describe your question, problem, or idea in detail.
+      placeholder: Write your message here...
+    validations:
+      required: true
